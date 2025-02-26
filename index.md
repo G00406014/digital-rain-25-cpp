@@ -7,7 +7,7 @@ categories: demo
 
 This is my first paragraph...
 
-## This is a Heading
+## Digital Rain Project 
 
 This is a paragraph. Add an empty line to start a new paragraph.
 
@@ -23,6 +23,6 @@ A bullet list:
 - algorithms
 - iterators
 
-You can add an impage that has been uploaded to the repository in a /docs/assets/images folder.
+You can add an image that has been uploaded to the repository in a /docs/assets/images folder.
 
 <img src="https://raw.githubusercontent.com/melgineer/digital-rain-test-cpp/main/docs/assets/images/DigitalRainDev1.png" width="400" height="300">
