@@ -6,7 +6,7 @@ A Project in Modern C++ cpp coding project
 The Digital Rain Project is a simulation that visually represents falling raindrops,
 
 ## Software Design, Architechture & test
-- iterators
+- design
 ## vectors
 - vectors
 ## Algorithms Development
