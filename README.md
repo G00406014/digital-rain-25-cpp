@@ -8,7 +8,7 @@ The Digital Rain Project is a simulation that visually represents falling raindr
 
 ## vectors
 - vectors
-## algorithms
+## Algorithms Development
 - algorithms
 ## iterators
 - iterators
