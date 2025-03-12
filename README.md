@@ -1,10 +1,7 @@
 # digital-rain-25-cpp
 
----
-layout: post
-title: A Project in Modern C++
-tags: cpp coding project
-categories: demo
+--
+A Project in Modern C++ cpp coding project
 ---
 
 This is my first paragraph...
