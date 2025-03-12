@@ -3,8 +3,8 @@
 
 A Project in Modern C++ cpp coding project
 --
+The Digital Rain Project is a simulation that visually represents falling raindrops,
 
-This is my first paragraph...
 
 ## This is a Heading
 
