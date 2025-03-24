@@ -17,6 +17,11 @@ The Digital Rain Project is a modern C++ project that visually represents fallin
   numbers vertically
 ![image](https://github.com/user-attachments/assets/09ddf3cf-f5a2-40d1-83ce-12be4e05bb0a)
 
+  For this project i choose to go with using ASCII charachters on the tabe within the range of 33 - 126,
+  which is a mix of numbers, upper and lowercase charachters and symbols. 
+  ![image](https://github.com/user-attachments/assets/e9bb2d22-d4a6-44f9-a9fc-e82d9940317c)
+
+
 ## Algorithms
 I am using algorithms in several places with in my code, The first algorithm i am going to talk about is
 : ![image](https://github.com/user-attachments/assets/bcf3c05b-2794-4197-89d3-ebf4d1c30b08)
