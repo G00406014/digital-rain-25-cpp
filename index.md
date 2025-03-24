@@ -25,7 +25,7 @@ The first thing i attempted was to print Hello vertically, this code snippet :
   numbers vertically. 
 ![image](https://github.com/user-attachments/assets/09ddf3cf-f5a2-40d1-83ce-12be4e05bb0a)
 
-  After being able to print out charachters and number i choose to go with using ASCII charachters on the tabe within the range of 33 - 126,
+  After being able to print out charachters and number vertically, i choose to go with using ASCII charachters on the tabe within the range of 33 - 126,
   which is a mix of numbers, upper and lowercase charachters and symbols. 
  
   ![image](https://github.com/user-attachments/assets/e9bb2d22-d4a6-44f9-a9fc-e82d9940317c)
