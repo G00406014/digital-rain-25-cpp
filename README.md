@@ -23,6 +23,7 @@ The first thing i attempted was to print Hello vertically, this code snippet :
 
   For this project i choose to go with using ASCII charachters on the tabe within the range of 33 - 126,
   which is a mix of numbers, upper and lowercase charachters and symbols. 
+ 
   ![image](https://github.com/user-attachments/assets/e9bb2d22-d4a6-44f9-a9fc-e82d9940317c)
 
 
