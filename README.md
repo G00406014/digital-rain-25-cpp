@@ -4,10 +4,18 @@
 A Project in Modern C++ cpp coding project
 --
 The Digital Rain Project is a modern C++ project that visually represents falling raindrops,
+
 //think about adding a try catch, exexution 
 
 ## Software Design, Architechture & test
-- Design
+- The first thing i attempted was to print Hello vertically:
+  ![image](https://github.com/user-attachments/assets/6d97520e-4328-46de-b40f-ac9137a45f1d)
+
+  By being able to print hello veritcally going down my screen it gave me confidence that i can use
+  letters and numbers to visually simulate digital rain.
+
+![image](https://github.com/user-attachments/assets/09ddf3cf-f5a2-40d1-83ce-12be4e05bb0a)
+
 ## Algorithms
 I am using algorithms in several places with in my code, The first algorithm i am going to talk about is
 : ![image](https://github.com/user-attachments/assets/bcf3c05b-2794-4197-89d3-ebf4d1c30b08)
