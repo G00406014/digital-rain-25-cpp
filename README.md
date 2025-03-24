@@ -8,8 +8,9 @@ The Digital Rain Project is a modern C++ project that visually represents fallin
 //think about adding a try catch, exexution 
 
 ## Software Design, Architechture & test
-- The first thing i attempted was to print Hello vertically:
-  ![image](https://github.com/user-attachments/assets/6d97520e-4328-46de-b40f-ac9137a45f1d)
+-  The first thing i attempted was to print Hello vertically:
+![image](https://github.com/user-attachments/assets/04a8f32e-c1a9-47d1-806d-033253242f8c)
+
 
   By being able to print hello veritcally going down my screen it gave me confidence that i can use
   letters and numbers to visually simulate digital rain.
