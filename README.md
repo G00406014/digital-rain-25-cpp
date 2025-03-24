@@ -8,7 +8,8 @@ The Digital Rain Project is a modern C++ project that visually represents fallin
 //think about adding a try catch, exexution 
 
 ## Software Design, Architechture & test
--  The first thing i attempted was to print Hello vertically, this code snippet :
+
+The first thing i attempted was to print Hello vertically, this code snippet :
 ![image](https://github.com/user-attachments/assets/04a8f32e-c1a9-47d1-806d-033253242f8c)
 
 
