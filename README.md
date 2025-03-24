@@ -15,10 +15,7 @@ The first thing i attempted was to print Hello vertically, this code snippet :
 
   By being able to print hello veritcally going down my screen it gave me confidence that i can use
   letters and numbers to visually simulate digital rain. Here is an example of me printing random 
-  numbers vertically, at this point i was still using srand but that is not the practice of a modern
-  C++ programmer, so i instead decided to use the <random> library, I avoided to use srand() because
-  it's outdated, has poor randomness and is not thread safe, these are all features i want to avoid
-  having in my code.
+  numbers vertically. 
 ![image](https://github.com/user-attachments/assets/09ddf3cf-f5a2-40d1-83ce-12be4e05bb0a)
 
   For this project i choose to go with using ASCII charachters on the tabe within the range of 33 - 126,
@@ -51,7 +48,10 @@ This part of the code generates a random X & Y for the raindrop.
 ## Problem Solving
 - issues
 ## Modern C++ insight & reflection
-- removing Srand()
+- at this point i was still using srand but that is not the practice of a modern
+  C++ programmer, so i instead decided to use the <random> library, I avoided to use srand() because
+  it's outdated, has poor randomness and is not thread safe, these are all features i want to avoid
+  having in my code.
 ## DigitalRain image
 ![image](https://github.com/user-attachments/assets/c54e1a61-13da-4280-9fcd-28213220c0ee)
 //<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/DigitalRainDev1.png" width="400" height="300">
