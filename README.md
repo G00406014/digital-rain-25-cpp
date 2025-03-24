@@ -15,7 +15,10 @@ The first thing i attempted was to print Hello vertically, this code snippet :
 
   By being able to print hello veritcally going down my screen it gave me confidence that i can use
   letters and numbers to visually simulate digital rain. Here is an example of me printing random 
-  numbers vertically
+  numbers vertically, at this point i was still using srand but that is not the practice of a modern
+  C++ programmer, so i instead decided to use the <random> library, I avoided to use srand() because
+  it's outdated, has poor randomness and is not thread safe, these are all features i want to avoid
+  having in my code.
 ![image](https://github.com/user-attachments/assets/09ddf3cf-f5a2-40d1-83ce-12be4e05bb0a)
 
   For this project i choose to go with using ASCII charachters on the tabe within the range of 33 - 126,
