@@ -22,6 +22,12 @@ std::mt19937 eng(rd());
 
 This part of the code is responsible for seeding and initalizing the random number generator.
 
+std::uniform_int_distribution<> distrX(0, SCREEN_WIDTH - 1);
+
+std::uniform_int_distribution<> distrY(0, SCREEN_HEIGHT - 1);
+
+This part of the code generates a random X & Y for the raindrop.
+
 Another algorithm which 
 
 ## Algorithms Development
