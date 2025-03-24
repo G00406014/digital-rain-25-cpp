@@ -28,10 +28,7 @@ std::uniform_int_distribution<> distrY(0, SCREEN_HEIGHT - 1);
 
 This part of the code generates a random X & Y for the raindrop.
 
-Another algorithm which 
 
-## Algorithms Development
-- algorithms
 ## Problem Solving
 - issues
 ## Modern C++ insight & reflection
