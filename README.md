@@ -4,17 +4,20 @@
 A Project in Modern C++ cpp coding project
 --
 The Digital Rain Project is a modern C++ project that visually represents falling raindrops,
-think about adding a try catch, exexution 
-
+//think about adding a try catch, exexution 
 
 ## Software Design, Architechture & test
-- design
+- Design
 ## Algorithms
-- algorithms
+I am using algorithms in several places with in my code, The first algorithm i am going to talk about is
+: ![image](https://github.com/user-attachments/assets/bcf3c05b-2794-4197-89d3-ebf4d1c30b08)
+
+This code snippet is of my Random NUmber Generation algorithm, this algorithm ensures that
+each and every raindrop is unique and will behave unpredicatably, making a realistic digital 
+rain effect. 
+
 ## Algorithms Development
 - algorithms
-## Problem Solving
-- 
 ## Problem Solving
 - issues
 ## Modern C++ insight & reflection
