@@ -14,7 +14,14 @@ I am using algorithms in several places with in my code, The first algorithm i a
 
 This code snippet is of my Random NUmber Generation algorithm, this algorithm ensures that
 each and every raindrop is unique and will behave unpredicatably, making a realistic digital 
-rain effect. 
+rain effect.
+
+std::random_device rd;
+std::mt19937 eng(rd());
+
+This part of the code is responsible for seeding and initalizing the random number generator.
+
+Another algorithm which 
 
 ## Algorithms Development
 - algorithms
