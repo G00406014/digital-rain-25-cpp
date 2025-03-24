@@ -12,11 +12,12 @@ The Digital Rain Project is a modern C++ project that visually represents fallin
 I am using algorithms in several places with in my code, The first algorithm i am going to talk about is
 : ![image](https://github.com/user-attachments/assets/bcf3c05b-2794-4197-89d3-ebf4d1c30b08)
 
-This code snippet is of my Random NUmber Generation algorithm, this algorithm ensures that
+This code snippet is of my Random Number Generation algorithm, this algorithm ensures that
 each and every raindrop is unique and will behave unpredicatably, making a realistic digital 
 rain effect.
 
 std::random_device rd;
+
 std::mt19937 eng(rd());
 
 This part of the code is responsible for seeding and initalizing the random number generator.
