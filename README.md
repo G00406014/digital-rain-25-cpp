@@ -13,7 +13,7 @@ I am using algorithms in several places with in my code, The first algorithm i a
 : ![image](https://github.com/user-attachments/assets/bcf3c05b-2794-4197-89d3-ebf4d1c30b08)
 
 This code snippet is of my Random Number Generation algorithm, this algorithm ensures that
-each and every raindrop is unique and will behave unpredicatably, making a realistic digital 
+each and every raindrop is unique and will behave unpredicatably, making for a realistic digital 
 rain effect.
 
 std::random_device rd;
