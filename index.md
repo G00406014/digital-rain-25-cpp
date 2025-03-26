@@ -12,7 +12,11 @@ The Digital Rain Project is a modern C++ project that visually represents fallin
 
 ## Software Design, Architechture & test
 
-oo and constructors 
+I went with the design of object-oriented code for this project. I chose object-oriented code because
+it promotes modularity and reusability, letting me group related data and functions together in classes. 
+Additionally, using constructors ensures that each object is initialized properly, enhancing reliability.
+Constructors allow for setting default values and establishing the initial state of an object, which is crucial for preventing errors.
+This approach also simplifies debugging and testing.
 
 The first thing i attempted was to print Hello vertically, this code snippet :
 ![image](https://github.com/user-attachments/assets/04a8f32e-c1a9-47d1-806d-033253242f8c)
@@ -40,7 +44,8 @@ The first thing i attempted was to print Hello vertically, this code snippet :
   To vertically print, i was using the function gotoxy, positioning each character vertically down the console window, this was to create the illusion of falling rain drops.
   I also implemented an animation loop that would constantly update the positions of characters, by periodically clearing the screen and re-printing characters in their new positions
   this achievd a smooth visual transition. 
-  
+
+  For testing i have a function called TestRandomNumberGenerator, in this test it will 
 
 ## Algorithms
 I am using algorithms in several places with in my code, The first algorithm i am going to talk about is
