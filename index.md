@@ -12,6 +12,8 @@ The Digital Rain Project is a modern C++ project that visually represents fallin
 
 ## Software Design, Architechture & test
 
+oo and constructors 
+
 The first thing i attempted was to print Hello vertically, this code snippet :
 ![image](https://github.com/user-attachments/assets/04a8f32e-c1a9-47d1-806d-033253242f8c)
 
@@ -22,10 +24,23 @@ The first thing i attempted was to print Hello vertically, this code snippet :
 ![image](https://github.com/user-attachments/assets/09ddf3cf-f5a2-40d1-83ce-12be4e05bb0a)
 
   After being able to print out charachters and number vertically, i choose to go with using ASCII charachters on the tabe within the range of 33 - 126,
-  which is a mix of numbers, upper and lowercase charachters and symbols. 
+  which is a mix of numbers, upper and lowercase charachters and symbols, this diversity allows for a visually engaging representation of digital rain 
  
   ![image](https://github.com/user-attachments/assets/e9bb2d22-d4a6-44f9-a9fc-e82d9940317c)
+ 
+  The available symbols from the ASCII table :
+  ![image](https://github.com/user-attachments/assets/6f049fc2-a59a-4600-8002-72eea201ac4f)
 
+  After implemening the ASCII table to my project, the next solution was to be able to print out the range of characters randomly.
+  To achieve this, I utilized the C++ random library, which provides tools for generating random numbers.
+
+  I set up a random number generator using std::mt19937 and std::uniform_int_distribution<> to ensure that each character printed was selected from the specified ASCII range, each 
+  time my rain simulation was running. 
+
+  To vertically print, i was using the function gotoxy, positioning each character vertically down the console window, this was to create the illusion of falling rain drops.
+  I also implemented an animation loop that would constantly update the positions of characters, by periodically clearing the screen and re-printing characters in their new positions
+  this achievd a smooth visual transition. 
+  
 
 ## Algorithms
 I am using algorithms in several places with in my code, The first algorithm i am going to talk about is
