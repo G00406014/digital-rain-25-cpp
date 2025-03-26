@@ -6,8 +6,6 @@ categories: demo
 ---
 
 # digital-rain-25-cpp
-
-
 A Project in Modern C++ cpp coding project
 --
 The Digital Rain Project is a modern C++ project that visually represents falling raindrops,
