@@ -56,7 +56,7 @@ This part of the code generates a random X & Y for the raindrop.
   it's outdated, has poor randomness and is not thread safe, these are all features i want to avoid
   having in my code.
 ## DigitalRain image
-Image of my digigtal rain project : 
+Image of my digital rain project : 
 ![image](https://github.com/user-attachments/assets/c54e1a61-13da-4280-9fcd-28213220c0ee)
 
 <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/DigitalRain.jpg" width="400" height="300">
