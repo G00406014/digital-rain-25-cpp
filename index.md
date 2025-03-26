@@ -12,8 +12,6 @@ A Project in Modern C++ cpp coding project
 --
 The Digital Rain Project is a modern C++ project that visually represents falling raindrops,
 
-//think about adding a try catch, exexution 
-
 ## Software Design, Architechture & test
 
 The first thing i attempted was to print Hello vertically, this code snippet :
