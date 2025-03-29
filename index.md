@@ -44,7 +44,7 @@ The first thing i attempted was to print Hello vertically, this code snippet :
 
   To vertically print, i was using the function gotoxy, positioning each character vertically down the console window, this was to create the illusion of falling 
   rain drops.
-  I also implemented an animation loop that would constantly update the positions of characters, by periodically clearing the screen and re-printing characters 
+  I also implemented an animation loop that would constantly update the positions of characters, by clearing the screen and re-printing characters 
   in their new positions
   this achievd a smooth visual transition.
 
@@ -81,7 +81,8 @@ This part of the code assigns a random speed to each raindrop, ensuring that dif
 
 std::uniform_int_distribution<> distrChar(ASCII_CHAR_MIN, ASCII_CHAR_MAX);
 
-This part of the code selects a random ASCII character for each raindrop. Each character is chosen randomly, creating an ever-changing visual.
+This part of the code selects a random ASCII character for each raindrop within the range of 33 - 126. Each character is chosen randomly, creating an ever
+changing visual.
 
 The algorithm ensures that each raindrop appears at a random position, falls at a different speed, and displays a 
 ASCII character. This algorithm enhances the visual of the digital rain.
@@ -98,9 +99,8 @@ repeatedly, and a 50-millisecond delay is added using Sleep(50) to control the u
 
 
 ## Problem Solving
- One of the problems I was previously experincing fickering issues when running my simulation of digital rain, I wanted to improve transitions, to resolve this 
- issue
- i implemented Vectors. Snippet of old code :
+ One of the problems I was previously experincing was a fickering issue when running my simulation of digital rain, I wanted to improve transitions, to resolve 
+ this issue i implemented Vectors. Snippet of old code :
  
  ![image](https://github.com/user-attachments/assets/76a8fbca-afb7-4c92-9f79-6afd25b7549e)
 
@@ -111,23 +111,19 @@ repeatedly, and a 50-millisecond delay is added using Sleep(50) to control the u
  ![image](https://github.com/user-attachments/assets/6940365e-2792-4b72-a31a-692001a2f7c2)
 
  By switching to a vector-based approach which stores a dynamic collection of RainDrop objects., I was able to update all active raindrops simultaneously. This 
- allowed for a much smoother transitions
- and eliminated the need to clear the screen entirely each time. Since vector’s are dynamic this allowed me to handle multiple raindrops more efficiently,
- creating a much more apealing visual.
+ allowed for a much smoother transitionsmand eliminated the need to clear the screen entirely each time. 
+ Since vector’s are dynamic this allowed me to handle multiple raindrops more efficiently, creating a much more apealing visual.
  
  This change significantly reduced the flickering and improved the overall performance and visual quality of the simulation.
-
- 
 
 ## Modern C++ insight & reflection
   Previously i was using srand but that is not the correct practice of a modern
   C++ programmer, so i instead decided to use the <random> library, I avoided to use srand() because
-  it's outdated, has poor randomness and is not thread safe, these are all features i want to avoid
-  having in my code.
+  it's outdated, has poor randomness and is not thread safe, these are all features i want to avoid as a programmer.
 
   Another guideline I followed was that a modern C++ programmer would include constructors and destructors in the project, even if they aren't strictly required.
 
-  Another practice I adhered to was including return statements in the code, even when they aren't strictly necessary. It’s considered good practice in C++ to 
+  Another practice I followed to was including return statements in the code, even when they aren't necessary. It’s considered good practice in C++ to 
   write return statements, as it improves readability and maintainability.
 
   I also kept my Main.cpp as simple and tidy as possible allowing for easy readability and naviagtion throughout the project
