@@ -38,11 +38,14 @@ The first thing i attempted was to print Hello vertically, this code snippet :
   After implemening the ASCII table to my project, the next solution was to be able to print out the range of characters randomly.
   To achieve this, I utilized the C++ random library, which provides tools for generating random numbers.
 
-  I set up a random number generator using std::mt19937 and std::uniform_int_distribution<> to ensure that each character printed was selected from the specified ASCII range, each 
+  I set up a random number generator using std::mt19937 and std::uniform_int_distribution<> to ensure that each character printed was selected from the specified 
+ ASCII range, each 
   time my rain simulation was running. 
 
-  To vertically print, i was using the function gotoxy, positioning each character vertically down the console window, this was to create the illusion of falling rain drops.
-  I also implemented an animation loop that would constantly update the positions of characters, by periodically clearing the screen and re-printing characters in their new positions
+  To vertically print, i was using the function gotoxy, positioning each character vertically down the console window, this was to create the illusion of falling 
+  rain drops.
+  I also implemented an animation loop that would constantly update the positions of characters, by periodically clearing the screen and re-printing characters 
+  in their new positions
   this achievd a smooth visual transition. 
 
   For testing i have a function called TestRandomNumberGenerator, in this test it will 
@@ -66,6 +69,17 @@ std::uniform_int_distribution<> distrX(0, SCREEN_WIDTH - 1);
 std::uniform_int_distribution<> distrY(0, SCREEN_HEIGHT - 1);
 
 This part of the code generates a random X & Y for the raindrop.
+
+std::uniform_int_distribution<> distrSpeed(1, 3);
+
+This part of the code assigns a random speed to each raindrop, ensuring that different raindrops fall at different speeds.
+
+std::uniform_int_distribution<> distrChar(ASCII_CHAR_MIN, ASCII_CHAR_MAX);
+
+This part of the code selects a random ASCII character for each raindrop. Each character is chosen randomly, creating an ever-changing visual.
+
+The algorithm ensures that each raindrop appears at a random position, falls at a different speed, and displays a 
+ASCII character. This algorithm enhances the visual of the digital rain.
 
 ![image](https://github.com/user-attachments/assets/f243a52a-63a7-4e1c-bf29-e5f6d9e4b16a)
 
