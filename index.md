@@ -67,6 +67,14 @@ std::uniform_int_distribution<> distrY(0, SCREEN_HEIGHT - 1);
 
 This part of the code generates a random X & Y for the raindrop.
 
+![image](https://github.com/user-attachments/assets/f243a52a-63a7-4e1c-bf29-e5f6d9e4b16a)
+
+The Digitalrain::updateRain() algorithm simulates falling raindrops on the screen. 
+It loops through each raindrop, clears its previous position, and moves it down by its speed. 
+If a raindrop reaches the bottom of the screen, it will then reset to the top with a random position and speed. 
+The Digitalrain::StartRain() function begins the animation by first clearing the screen. Then, it enters an infinite loop where updateRain() is called 
+repeatedly, and a 50-millisecond delay is added using Sleep(50) to control the update speed, creating a smooth rain effect on the screen.
+
 
 ## Problem Solving
  One of the problems I was previously experincing fickering issues when running my simulation of digital rain, I wanted to improve transitions, to resolve this 
