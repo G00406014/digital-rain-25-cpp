@@ -48,11 +48,12 @@ The first thing i attempted was to print Hello vertically, this code snippet :
   in their new positions
   this achievd a smooth visual transition.
 
-  ![image](https://github.com/user-attachments/assets/da50c063-526b-40a2-8979-bc6afdf69d27)
-
   I have a function called TestRandomNumberGenerator. In this test, it generates 1,000 random values to test the X and Y coordinates. The function 
   is also wrapped in a try-catch block that will handle any exceptions. If any generated value falls outside the expected range, an error message is 
   printed to the console.
+
+  Code Snippet of TestRandomNumberGenerator:
+  ![image](https://github.com/user-attachments/assets/da50c063-526b-40a2-8979-bc6afdf69d27)
 
 ## Algorithms
 I am using algorithms in several places with in my code, The first algorithm i am going to talk about is
