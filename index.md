@@ -39,16 +39,20 @@ The first thing i attempted was to print Hello vertically, this code snippet :
   To achieve this, I utilized the C++ random library, which provides tools for generating random numbers.
 
   I set up a random number generator using std::mt19937 and std::uniform_int_distribution<> to ensure that each character printed was selected from the specified 
- ASCII range, each 
+  ASCII range, each 
   time my rain simulation was running. 
 
   To vertically print, i was using the function gotoxy, positioning each character vertically down the console window, this was to create the illusion of falling 
   rain drops.
   I also implemented an animation loop that would constantly update the positions of characters, by periodically clearing the screen and re-printing characters 
   in their new positions
-  this achievd a smooth visual transition. 
+  this achievd a smooth visual transition.
 
-  For testing i have a function called TestRandomNumberGenerator, in this test it will 
+  ![image](https://github.com/user-attachments/assets/da50c063-526b-40a2-8979-bc6afdf69d27)
+
+  I have a function called TestRandomNumberGenerator. In this test, it generates 1,000 random values to test the X and Y coordinates. The function 
+  is also wrapped in a try-catch block that will handle any exceptions. If any generated value falls outside the expected range, an error message is 
+  printed to the console.
 
 ## Algorithms
 I am using algorithms in several places with in my code, The first algorithm i am going to talk about is
