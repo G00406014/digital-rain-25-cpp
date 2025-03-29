@@ -91,10 +91,18 @@ This part of the code generates a random X & Y for the raindrop.
  
 
 ## Modern C++ insight & reflection
-- at this point i was still using srand but that is not the practice of a modern
+  Previously i was using srand but that is not the correct practice of a modern
   C++ programmer, so i instead decided to use the <random> library, I avoided to use srand() because
   it's outdated, has poor randomness and is not thread safe, these are all features i want to avoid
   having in my code.
+
+  Another guideline I followed was that a modern C++ programmer would include constructors and destructors in the project, even if they aren't strictly required.
+
+  Another practice I adhered to was including return statements in the code, even when they aren't strictly necessary. It’s considered good practice in C++ to 
+  write return statements, as it improves readability and maintainability.
+
+  I also kept my Main.cpp as simple and tidy as possible allowing for easy readability and naviagtion throughout the project
+
 ## DigitalRain image
 Image of my digital rain project : 
 ![image](https://github.com/user-attachments/assets/c54e1a61-13da-4280-9fcd-28213220c0ee)
