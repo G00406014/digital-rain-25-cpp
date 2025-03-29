@@ -1,7 +1,11 @@
 # digital-rain-25-cpp---layout:
+
 title: A Project in Modern 
-C++tags: cpp coding project
+
+C++ tags: cpp coding project
+
 categories: demo---This is my first paragraph...
+
 ## This is a Heading
 This is a paragraph
 Add an empty line to start a new paragraph.
