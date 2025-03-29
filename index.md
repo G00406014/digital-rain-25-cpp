@@ -13,10 +13,8 @@ The Digital Rain Project is a modern C++ project that visually represents fallin
 ## Software Design, Architechture & test
 
 I went with the design of object-oriented code for this project. I chose object-oriented code because
-it promotes modularity and reusability, letting me group related data and functions together in classes. 
-Additionally, using constructors ensures that each object is initialized properly, enhancing reliability.
-Constructors allow for setting default values and establishing the initial state of an object, which is crucial for preventing errors.
-This approach also simplifies debugging and testing.
+it keeps the code organized and reusable. I also use constructors and destructors which ensures that each object is initialized properly.
+Constructors help by setting default values and defining the object's state. This makes debugging and testing easier.
 
 The first thing i attempted was to print Hello vertically, this code snippet :
 ![image](https://github.com/user-attachments/assets/04a8f32e-c1a9-47d1-806d-033253242f8c)
