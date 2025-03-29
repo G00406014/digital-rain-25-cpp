@@ -69,7 +69,27 @@ This part of the code generates a random X & Y for the raindrop.
 
 
 ## Problem Solving
-- issues
+ One of the problems I was previously experincing fickering issues when running my simulation of digital rain, I wanted to improve transitions, to resolve this 
+ issue
+ i implemented Vectors. Snippet of old code :
+ 
+ ![image](https://github.com/user-attachments/assets/76a8fbca-afb7-4c92-9f79-6afd25b7549e)
+
+ This code was only updating one column at a time, meaning the rest of the screen was static between updates.
+ You could also see a kind of visual blink when this code ran each time : system("cls")). This approach was wrong as it was clearing the whole screen, which
+ was resulting in flickering.
+
+ ![image](https://github.com/user-attachments/assets/6940365e-2792-4b72-a31a-692001a2f7c2)
+
+ By switching to a vector-based approach which stores a dynamic collection of RainDrop objects., I was able to update all active raindrops simultaneously. This 
+ allowed for a much smoother transitions
+ and eliminated the need to clear the screen entirely each time. Since vector’s are dynamic this allowed me to handle multiple raindrops more efficiently,
+ creating a much more apealing visual.
+ 
+ This change significantly reduced the flickering and improved the overall performance and visual quality of the simulation.
+
+ 
+
 ## Modern C++ insight & reflection
 - at this point i was still using srand but that is not the practice of a modern
   C++ programmer, so i instead decided to use the <random> library, I avoided to use srand() because
