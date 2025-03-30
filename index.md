@@ -88,7 +88,7 @@ This part of the code selects a random ASCII character for each raindrop within 
 changing visual.
 
 The algorithm ensures that each raindrop appears at a random position, falls at a different speed, and displays a 
-ASCII character. This algorithm enhances the visual of the digital rain.
+ASCII character. This algorithm enhances the visual of the digital rain. Mathematically, this algorithm relies on random number generation to ensure each raindrop’s position, speed, and character are unique, and the continuous fall of each raindrop is determined by the speed variable.
 
 ![image](https://github.com/user-attachments/assets/f243a52a-63a7-4e1c-bf29-e5f6d9e4b16a)
 
