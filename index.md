@@ -126,6 +126,12 @@ repeatedly, and a 50-millisecond delay is added using Sleep(50) to control the u
 
   I also kept my Main.cpp as simple and tidy as possible allowing for easy readability and naviagtion throughout the project
 
+  Reflecting back on the project, I learnt many valuable lessons in this module and in the project that i can carry on with me into the future of being an 
+  engineer  
+  Throughout the project I put a strong emphasis on writing clean, well structured code and implied good coding practice styles and techniques in my 
+  project.
+  I beleive that applyin these practice will help me become a better modern C++ programmer. 
+
 ## DigitalRain image
 Image of my digital rain project : 
 ![image](https://github.com/user-attachments/assets/c54e1a61-13da-4280-9fcd-28213220c0ee)
