@@ -4,11 +4,9 @@
 
 **Categories**: Demo, C++ Programming
 
-This project demonstrates the creation of a **Digital Rain** effect using **Modern C++** techniques. The raindrops are unique, and their movement is controlled using random number generation, ensuring the rain behaves unpredictably for a more dynamic and realistic effect.
-
 ## Project Overview
 
-This project involves creating a visual simulation of falling raindrops that are represented by ASCII characters. The simulation is built using object-oriented programming principles, which makes the code modular and easy to maintain.
+This project involves creating a visual simulation of falling raindrops that are represented by ASCII characters. The simulation is built using object-oriented programming principles, which makes the code reusable and easy to maintain.
 
 ## Features
 
