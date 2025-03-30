@@ -49,7 +49,9 @@ The first thing i attempted was to print Hello vertically, this code snippet :
   in their new positions
   this achievd a smooth visual transition.
 
-  I have a function called TestRandomNumberGenerator. In this test, it generates 1,000 random values to test the X and Y coordinates. The function 
+  I have a function called TestRandomNumberGenerator, which ChatGPT helped me to design, OpenAI, "ChatGPT," OpenAI, Mar. 2025. [Online]. Available: 
+  https://openai.com/chatgpt. In this test, it generates 1,000 random values to test 
+  the X and Y coordinates. The function 
   is also wrapped in a try-catch block that will handle any exceptions. If any generated value falls outside the expected range, an error message is 
   printed to the console.
 
