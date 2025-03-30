@@ -3,7 +3,7 @@ title: Digital Rain Modern C++ Project Blog
 author:
   name: Alex Cronin
   email: G00406014@atu.ie
-description: "A blog."
+description: "A Digital Rain Project is a modern C++ project that visually represents falling digital raindrops."
 
 # Build settings
 remote_theme: jekyll/minima
