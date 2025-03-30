@@ -1,17 +1,17 @@
 # Site settings
-title: Digital Rain - Modern C++ Blog
+title: "Digital Rain - Modern C++ Blog"
 tagline: "Exploring C++ with modern best practices"
 description: "A blog about Modern C++ coding projects, featuring vectors, algorithms, and more."
-url: "https://g00406014.github.io/digital-rain-25-cpp/"  # Replace with your actual GitHub Pages URL
-baseurl: ""  # Keep empty unless your site is inside a subfolder
+url: "https://g00406014.github.io"
+baseurl: "/digital-rain-25-cpp"  # Update if hosted in a subdirectory
 
 author:
-  name: Alex Cronin
-  email: G00406014@atu.ie
+  name: "Alex Cronin"
+  email: "G00406014@atu.ie"
 
 # Theme settings
 remote_theme: cotes2020/jekyll-theme-chirpy
-lang: en
+lang: "en"
 
 # SEO & Social
 social:
@@ -20,4 +20,9 @@ social:
     - "https://github.com/G00406014/digital-rain-25-cpp"
 
 # Build settings
-future: true  # Allows posts with future dates
+future: true  
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
