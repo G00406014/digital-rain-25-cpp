@@ -15,7 +15,8 @@ This project involves creating a visual simulation of falling raindrops that are
 - **Object-Oriented Design**: Code is structured in classes to promote reusability and maintainability.
 
 ## Video of project
-![20250331-1011-02 8554591](https://github.com/user-attachments/assets/a9ac2ef8-086b-4c63-bde3-f5aee9272068)
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Rain2.jpg" width="600" height="300">
 
 ## Image of project
-![image](https://github.com/user-attachments/assets/47bf3051-b847-4e31-825d-3e1c5cacd82d)
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Rain.gif" width="600" height="300">
+
