@@ -111,7 +111,7 @@ repeatedly, and a 50-millisecond delay is added using Sleep(50) to control the u
  was resulting in flickering.
 
  
-<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ProblemSolvingimage2.jpg" width="800" height="400">
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ProblemSolvingImage2.jpg" width="800" height="400">
 
 
  By switching to a vector-based approach which stores a dynamic collection of RainDrop objects., I was able to update all active raindrops simultaneously. This 
