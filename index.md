@@ -139,4 +139,4 @@ repeatedly, and a 50-millisecond delay is added using Sleep(50) to control the u
 
 ## DigitalRain image
 Image of my digital rain project : 
-<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Rain2" width="400" height="300">
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Rain2.jpg" width="400" height="300">
