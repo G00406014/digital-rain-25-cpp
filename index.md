@@ -89,7 +89,7 @@ changing visual.
 
 The algorithm ensures that each raindrop appears at a random position, falls at a different speed, and displays a 
 ASCII character. This algorithm enhances the visual of the digital rain. Mathematically, this algorithm relies on random number generation to ensure each raindrop’s position, speed, and character are unique, and the continuous fall of each raindrop is determined by the speed variable.
-<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Algorithmimage2.jpg" width="800" height="400">
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Algorithmimage2.jpg" width="800" height="700">
 
 The Digitalrain::updateRain() algorithm simulates falling raindrops on the screen. 
 It loops through each raindrop, clears its previous position, and moves it down by its speed. 
@@ -104,13 +104,15 @@ repeatedly, and a 50-millisecond delay is added using Sleep(50) to control the u
  One of the problems I was previously experincing was a fickering issue when running my simulation of digital rain, I wanted to improve transitions, to resolve 
  this issue i implemented Vectors. Snippet of old code :
  
- ![image](https://github.com/user-attachments/assets/76a8fbca-afb7-4c92-9f79-6afd25b7549e)
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ProblemSolvingimage1.jpg" width="800" height="400">
 
  This code was only updating one column at a time, meaning the rest of the screen was static between updates.
  You could also see a kind of visual blink when this code ran each time : system("cls")). This approach was wrong as it was clearing the whole screen, which
  was resulting in flickering.
 
- ![image](https://github.com/user-attachments/assets/6940365e-2792-4b72-a31a-692001a2f7c2)
+ 
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ProblemSolvingimage2.jpg" width="800" height="400">
+
 
  By switching to a vector-based approach which stores a dynamic collection of RainDrop objects., I was able to update all active raindrops simultaneously. This 
  allowed for a much smoother transitionsmand eliminated the need to clear the screen entirely each time. 
