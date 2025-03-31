@@ -14,5 +14,8 @@ This project involves creating a visual simulation of falling raindrops that are
 - **ASCII Characters**: Random characters are chosen for each raindrop, enhancing the aesthetic.
 - **Object-Oriented Design**: Code is structured in classes to promote reusability and maintainability.
 
+## Video of project
+![20250331-1011-02 8554591](https://github.com/user-attachments/assets/a9ac2ef8-086b-4c63-bde3-f5aee9272068)
+
 ## Image of project
-<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/DigitalRainDev1.png" width="400" height="300">
+![image](https://github.com/user-attachments/assets/47bf3051-b847-4e31-825d-3e1c5cacd82d)
