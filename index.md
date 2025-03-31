@@ -20,21 +20,21 @@ it keeps the code organized and reusable. I also use constructors and destructor
 Constructors help by setting default values and defining the object's state. This makes debugging and testing easier.
 
 The first thing i attempted was to print Hello vertically, this code snippet :
-![image](https://github.com/user-attachments/assets/04a8f32e-c1a9-47d1-806d-033253242f8c)
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Startercode.jpg" width="500" height="400">
 
 
   By being able to print hello veritcally going down my screen it gave me confidence that i can use
   letters and numbers to visually simulate digital rain. Here is an example of me printing random 
   numbers vertically. 
-![image](https://github.com/user-attachments/assets/09ddf3cf-f5a2-40d1-83ce-12be4e05bb0a)
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/NumberCode.jpg" width="500" height="400">
 
   After being able to print out charachters and number vertically, i choose to go with using ASCII charachters on the tabe within the range of 33 - 126,
   which is a mix of numbers, upper and lowercase charachters and symbols, this diversity allows for a visually engaging representation of digital rain 
  
-  ![image](https://github.com/user-attachments/assets/e9bb2d22-d4a6-44f9-a9fc-e82d9940317c)
- 
-  The available symbols from the ASCII table :
-  ![image](https://github.com/user-attachments/assets/6f049fc2-a59a-4600-8002-72eea201ac4f)
+ <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ASCII.jpg" width="300" height="100">
+  The available symbols from the ASCII table
+  
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ASCIITable.jpg" width="600" height="400">
 
   After implemening the ASCII table to my project, the next solution was to be able to print out the range of characters randomly.
   To achieve this, I utilized the C++ random library, which provides tools for generating random numbers.
@@ -56,11 +56,11 @@ The first thing i attempted was to print Hello vertically, this code snippet :
   printed to the console.
 
   Code Snippet of TestRandomNumberGenerator:
-  ![image](https://github.com/user-attachments/assets/da50c063-526b-40a2-8979-bc6afdf69d27)
+  <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/TestRandomNumberGenerator.jpg" width="800" height="800">
 
 ## Algorithms
 I am using algorithms in several places with in my code, The first algorithm i am going to talk about is
-: ![image](https://github.com/user-attachments/assets/bcf3c05b-2794-4197-89d3-ebf4d1c30b08)
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Algorithmimage1.jpg" width="800" height="400">
 
 This code snippet is of my Random Number Generation algorithm, this algorithm ensures that
 each and every raindrop is unique and will behave unpredicatably, making for a realistic digital 
@@ -89,8 +89,7 @@ changing visual.
 
 The algorithm ensures that each raindrop appears at a random position, falls at a different speed, and displays a 
 ASCII character. This algorithm enhances the visual of the digital rain. Mathematically, this algorithm relies on random number generation to ensure each raindrop’s position, speed, and character are unique, and the continuous fall of each raindrop is determined by the speed variable.
-
-![image](https://github.com/user-attachments/assets/f243a52a-63a7-4e1c-bf29-e5f6d9e4b16a)
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Algorithmimage2.jpg" width="800" height="400">
 
 The Digitalrain::updateRain() algorithm simulates falling raindrops on the screen. 
 It loops through each raindrop, clears its previous position, and moves it down by its speed. 
