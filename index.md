@@ -18,7 +18,7 @@ I went with the design of object-oriented code for this project. I chose object-
 it keeps the code organized and reusable. I also use constructors and destructors which ensures that each object is initialized properly.
 Constructors help by setting default values and defining the object's state. This makes debugging and testing easier.
 
-The first thing I attempted was to print Hello vertically, this code snippet :
+The first thing I attempted was to print Hello vertically.
 <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Startercode.jpg" width="500" height="400">
 
 
