@@ -28,10 +28,11 @@ The first thing i attempted was to print Hello vertically, this code snippet :
   numbers vertically. 
 <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/NumberCode.jpg" width="500" height="400">
 
-  After being able to print out charachters and number vertically, i choose to go with using ASCII charachters on the tabe within the range of 33 - 126,
-  which is a mix of numbers, upper and lowercase charachters and symbols, this diversity allows for a visually engaging representation of digital rain 
+  After being able to print out character and number vertically, i choose to go with using ASCII symbols on the tabe within the range of 33 - 126,
+  which is a mix of numbers, upper and lowercase characters and symbols, this diversity allows for a visually engaging representation of digital rain 
  
  <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ASCII.jpg" width="300" height="100">
+ 
   The available symbols from the ASCII table
   
 <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ASCIITable.jpg" width="600" height="400">
@@ -88,7 +89,8 @@ This part of the code selects a random ASCII character for each raindrop within 
 changing visual.
 
 The algorithm ensures that each raindrop appears at a random position, falls at a different speed, and displays a 
-ASCII character. This algorithm enhances the visual of the digital rain. Mathematically, this algorithm relies on random number generation to ensure each raindrop’s position, speed, and character are unique, and the continuous fall of each raindrop is determined by the speed variable.
+ASCII character. This algorithm enhances the visual of the digital rain. Mathematically, this algorithm relies on random number generation to ensure each 
+raindrop’s position, speed, and character are unique, and the continuous fall of each raindrop is determined by the speed variable.
 <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Algorithmimage2.jpg" width="800" height="700">
 
 The Digitalrain::updateRain() algorithm simulates falling raindrops on the screen. 
@@ -121,8 +123,8 @@ repeatedly, and a 50-millisecond delay is added using Sleep(50) to control the u
  This change significantly reduced the flickering and improved the overall performance and visual quality of the simulation.
 
 ## Modern C++ insight & reflection
-  Previously i was using srand but that is not the correct practice of a modern
-  C++ programmer, so i instead decided to use the <random> library, I avoided to use srand() because
+  Previously i was using srand() but that is not the correct practice of a modern
+  C++ programmer, so i instead decided to use the <random> library, I avoided using srand() because
   it's outdated, has poor randomness and is not thread safe, these are all features i want to avoid as a programmer.
 
   Another guideline I followed was that a modern C++ programmer would include constructors and destructors in the project, even if they aren't strictly required.
@@ -130,13 +132,13 @@ repeatedly, and a 50-millisecond delay is added using Sleep(50) to control the u
   Another practice I followed to was including return statements in the code, even when they aren't necessary. It’s considered good practice in C++ to 
   write return statements, as it improves readability and maintainability.
 
-  I also kept my Main.cpp as simple and tidy as possible allowing for easy readability and naviagtion throughout the project
+  I also kept my Main.cpp as simple and tidy as possible allowing for easy readability and navigation throughout the project.
 
-  Reflecting back on the project, I learnt many valuable lessons in this module and in the project that i can carry on with me into the future of being an 
-  engineer  
+  Reflecting back on the project, I learnt many valuable lessons in this module and in the project that i can carry on with me into the future of being a
+  engineer.
   Throughout the project I put a strong emphasis on writing clean, well structured code and implied good coding practice styles and techniques in my 
   project.
-  I beleive that applyin these practice will help me become a better modern C++ programmer. 
+  I beleive that applying these practice will help me become a better modern C++ programmer. 
 
 ## DigitalRain image
 Image of my digital rain project : 
