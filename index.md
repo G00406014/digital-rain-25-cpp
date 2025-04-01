@@ -19,6 +19,7 @@ it keeps the code organized and reusable. I also use constructors and destructor
 Constructors help by setting default values and defining the object's state. This makes debugging and testing easier.
 
 The first thing I attempted was to print Hello vertically.
+
 <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Startercode.jpg" width="500" height="400">
 
 
