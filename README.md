@@ -11,7 +11,7 @@ This project involves creating a visual simulation of falling raindrops that are
 ## Features
 
 - **Randomized Raindrop Behavior**: Each raindrop falls at different speeds and appears at random positions, making the effect visually dynamic.
-- **ASCII Characters**: Random characters are chosen for each raindrop, enhancing the aesthetic.
+- **ASCII Characters**: Random characters, symbols and numbers are chosen for each raindrop.
 - **Object-Oriented Design**: Code is structured in classes to promote reusability and maintainability.
 
 ## Video of project
