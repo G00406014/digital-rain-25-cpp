@@ -104,14 +104,14 @@ repeatedly, and a 50-millisecond delay is added using Sleep(50) to control the u
  One of the problems I was previously experincing was a flickering issue when running my simulation of digital rain. I wanted to improve transitions, to resolve 
  this issue i implemented Vectors. Snippet of old code :
  
-<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ProblemSolvingimage1.jpg" width="800" height="400">
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ProblemSolvingimage1.jpg" width="600" height="400">
 
  This code was only updating one column at a time, meaning the rest of the screen was static between updates.
  You could also see a kind of visual blink when this code ran each time : system("cls")). This approach was wrong as it was clearing the whole screen, which
  was resulting in flickering.
 
  
-<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ProblemSolvingImage2.jpg" width="800" height="400">
+<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ProblemSolvingImage2.jpg" width="600" height="400">
 
 
  By switching to a vector-based approach which stores a dynamic collection of RainDrop objects., I was able to update all active raindrops simultaneously. This 
