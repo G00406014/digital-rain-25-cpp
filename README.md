@@ -16,7 +16,6 @@ This project involves creating a visual simulation of falling raindrops that are
 
 ## Video of project
 <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Rain.gif" width="600" height="300">
-<img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Rain2.jpg" width="600" height="300">
 
 ## Image of project
 <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/Rain2.jpg" width="600" height="300">
