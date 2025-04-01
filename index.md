@@ -29,11 +29,11 @@ The first thing i attempted was to print Hello vertically, this code snippet :
 <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/NumberCode.jpg" width="500" height="400">
 
   After being able to print out character and number vertically, i choose to go with using ASCII symbols on the tabe within the range of 33 - 126,
-  which is a mix of numbers, upper and lowercase characters and symbols, this diversity allows for a visually engaging representation of digital rain 
+  which is a mix of numbers, upper and lowercase characters and symbols, this diversity allows for a visually engaging representation of digital rain.
  
  <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ASCII.jpg" width="350" height="175">
  
-  The available symbols from the ASCII table
+  The available symbols from the ASCII table.
   
 <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ASCIITable.jpg" width="600" height="400">
 
@@ -41,8 +41,7 @@ The first thing i attempted was to print Hello vertically, this code snippet :
   To achieve this, I utilized the C++ random library, which provides tools for generating random numbers.
 
   I set up a random number generator using std::mt19937 and std::uniform_int_distribution<> to ensure that each character printed was selected from the specified 
-  ASCII range, each 
-  time my rain simulation was running. 
+  ASCII range, each time my rain simulation was running. 
 
   To vertically print, i was using the function gotoxy, positioning each character vertically down the console window, this was to create the illusion of falling 
   rain drops.
