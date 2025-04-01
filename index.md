@@ -31,7 +31,7 @@ The first thing i attempted was to print Hello vertically, this code snippet :
   After being able to print out character and number vertically, i choose to go with using ASCII symbols on the tabe within the range of 33 - 126,
   which is a mix of numbers, upper and lowercase characters and symbols, this diversity allows for a visually engaging representation of digital rain 
  
- <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ASCII.jpg" width="300" height="100">
+ <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ASCII.jpg" width="350" height="175">
  
   The available symbols from the ASCII table
   
