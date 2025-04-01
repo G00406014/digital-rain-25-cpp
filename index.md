@@ -31,7 +31,7 @@ The first thing I attempted was to print Hello vertically.
   After being able to print out characters and numbers vertically, I chose to use ASCII symbols within the range of 33 to 126, which includes numbers, uppercase 
   and lowercase letters, and various symbols. This diverse character set enhances the visual appeal of the digital rain effect.
  
- <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ASCII.jpg" width="350" height="175">
+ <img src="https://raw.githubusercontent.com/G00406014/digital-rain-25-cpp/main/docs/assets/images/ASCII.jpg" width="350" height="100">
  
   The available symbols from the ASCII table.
   
